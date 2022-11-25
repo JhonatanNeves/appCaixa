@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.view.LoginActivity"
+    android:background="@drawable/gradient"
+    >
+
+
+    <ImageView
+        android:id="@+id/login_img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@null"
+        android:src="@drawable/img_logo_caixa"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/login_edit_email"
+        style="@style/Theme.AppCaixa.FormEditText"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="@null"
+         />
+
+    <EditText
+        android:id="@+id/login_edit_password"
+        style="@style/Theme.AppCaixa.FormEditText"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="@null"
+        />
+
+    <Button
+        android:id="@+id/login_btn_enter"
+        style="@style/Theme.AppCaixa.Button"
+        android:text="@string/enter"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</LinearLayout>
