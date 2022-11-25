@@ -25,6 +25,7 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:autofillHints="@null"
+        android:textColor="@color/black"
          />
 
     <EditText
@@ -33,6 +34,7 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:autofillHints="@null"
+        android:textColor="@color/black"
         />
 
     <Button
