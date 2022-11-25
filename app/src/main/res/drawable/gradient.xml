@@ -5,8 +5,5 @@
         android:centerColor="@color/mid_blue"
         android:endColor="@color/cyan_blue"
         android:angle="315"/>
-    <corners
-        android:bottomRightRadius="40sp"
-        android:bottomLeftRadius="40sp"
-        />
+
 </shape>

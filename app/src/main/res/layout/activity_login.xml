@@ -9,7 +9,6 @@
     android:background="@drawable/gradient"
     >
 
-
     <ImageView
         android:id="@+id/login_img_logo"
         android:layout_width="match_parent"
