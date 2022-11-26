@@ -3,4 +3,13 @@
     <string name="email"><font color="#000000">E-mail</font></string>
     <string name="password"><font color="#000000">Senha</font></string>
     <string name="enter">Acessar sua conta</string>
+    <string name="pessoa_fisica">Pessoa Física</string>
+    <string name="lembrar_usuario">Lembrar Usuário</string>
+    <string name="usuario">Usuário</string>
+    <string name="pessoa_juridica">Pessoa Jurídica</string>
+    <string name="senha">Senha</string>
+    <string name="cadastro">Cadastrar ou alterar usuário</string>
+    <string name="msg_header"><b>Boa noite!</b>\nAproveite\no seu novo\nAppCaixa.</string>
+    <string name="fs_baixo_logo">Internet <b>BANKING</b></string>
+    <string name="ph_cadastro"><u>Cadastrar ou alterar usuário</u></string>
 </resources>

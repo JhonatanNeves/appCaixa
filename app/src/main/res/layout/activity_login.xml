@@ -1,52 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".login.view.LoginActivity"
     android:background="@drawable/gradient"
-    >
+    tools:context=".login.view.LoginActivity">
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/fs_baixo_logo"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/msg_header"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/login_img_logo"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginBottom="48dp"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
         android:contentDescription="@null"
         android:src="@drawable/img_logo_caixa"
-        android:layout_marginTop="30dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="363dp"
+        android:layout_marginStart="136dp"
+        android:src="@drawable/img_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/usuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+    <RadioGroup
+        android:id="@+id/rg_login_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/containerComponents">
+
+        <RadioButton
+            android:id="@+id/rb_pf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/pessoa_fisica"
+            android:textColor="@color/gray_text" />
+
+        <RadioButton
+            android:id="@+id/rb_pj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/pessoa_juridica"
+            android:textColor="@color/gray_text" />
+    </RadioGroup>
+
 
     <EditText
-        android:id="@+id/login_edit_email"
+        android:id="@+id/et_login_email"
         style="@style/Theme.AppCaixa.FormEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="@null"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:autofillHints="@null"
         android:textColor="@color/black"
-         />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rg_login_icon" />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/senha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_login_email" />
 
     <EditText
         android:id="@+id/login_edit_password"
         style="@style/Theme.AppCaixa.FormEditText"
+        android:drawableRight="@drawable/ic_visibility"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="@null"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:autofillHints="@null"
         android:textColor="@color/black"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/senha" />
+
+    <RadioButton
+        android:id="@+id/rb_remember_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:text="@string/lembrar_usuario"
+        android:textColor="@color/gray_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_edit_password" />
 
     <Button
         android:id="@+id/login_btn_enter"
         style="@style/Theme.AppCaixa.Button"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
         android:text="@string/enter"
-        />
+        android:drawableRight="@drawable/ic_baseline_arrow_forward"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rb_remember_user" />
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="41dp"
+        android:drawableRight="@drawable/ic_arrow_forward"
+        android:text="@string/ph_cadastro"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_btn_enter" />
 
-    </FrameLayout>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
