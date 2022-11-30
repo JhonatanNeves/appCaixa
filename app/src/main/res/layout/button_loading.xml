@@ -4,7 +4,13 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <Button style="@style/Theme.AppCaixa.Button" />
+    <Button style="@style/Theme.AppCaixa.Button"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
 
     <ProgressBar
         android:layout_width="32dp"
