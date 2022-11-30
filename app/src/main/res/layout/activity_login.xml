@@ -43,14 +43,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="379dp"
-        android:layout_height="407dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="-184dp"
+        android:layout_width="457dp"
+        android:layout_height="509dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
         android:contentDescription="@null"
         android:src="@drawable/img_login"
-        app:layout_constraintBottom_toTopOf="@+id/containerComponents"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
