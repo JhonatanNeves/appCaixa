@@ -1,5 +1,5 @@
 # Redesign Caixa 😍
-[![NPM](https://img.shields.io/badge/license-MIT-green)](https://img.shields.io/github/license/JhonatanNeves/appCaixa)
+[![NPM](https://img.shields.io/github/license/JhonatanNeves/appCaixa)](https://img.shields.io/github/license/JhonatanNeves/appCaixa)
 
 ## Sobre o projeto
 
