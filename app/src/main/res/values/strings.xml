@@ -14,4 +14,8 @@
     <string name="ph_cadastro"><u>Cadastrar ou alterar usuário</u></string>
     <string name="next">Proximo</string>
     <string name="already_has_account">Já tem uma conta? Faça login.</string>
+    <string name="name"><font color="#000000">Nome</font></string>
+    <string name="password_confirm"><font color="#000000">Confirmar Senha</font></string>
+    <string name="agree_terms_policy">Ao clicar em Proximo, você concorda com nossos <font color="#000000">Termos, Políticas de Dados e Políticas de Cookies</font>  </string>
+    <string name="welcome_to_caixa">BEM-VINDO AO appCaixa,\n%1$s\nEncontre tudo que precisar no app. Você pode alterar de conta a qualquer momento.</string>
 </resources>
