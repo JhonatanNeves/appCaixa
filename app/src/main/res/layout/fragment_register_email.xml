@@ -49,7 +49,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/register_edit_email"
         style="@style/Theme.AppCaixa.FormEditTextInput"
@@ -59,7 +58,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
         >
-
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_register_email"
@@ -73,8 +71,6 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
-
     <com.example.appcaixa.login.view.LoadingButton
         android:id="@+id/register_btn_next"
         android:layout_width="match_parent"
@@ -86,8 +82,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/register_edit_email" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
