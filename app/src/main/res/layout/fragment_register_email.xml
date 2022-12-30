@@ -80,27 +80,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="142dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="25dp"
         app:text="@string/next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/register_edit_email" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="41dp"
-        android:drawableRight="@drawable/ic_arrow_forward"
-        android:text="@string/already_has_account"
-        android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/register_btn_next" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
