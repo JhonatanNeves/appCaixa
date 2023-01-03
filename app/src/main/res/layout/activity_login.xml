@@ -107,7 +107,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rg_login_icon">
 
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_login_email"
             style="@style/Theme.AppCaixa.FormEditText"
@@ -170,10 +169,10 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="25dp"
-        app:text="@string/enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rb_remember_user" />
+        app:layout_constraintTop_toBottomOf="@id/rb_remember_user"
+        app:text="@string/enter" />
 
     <TextView
         android:layout_width="match_parent"
