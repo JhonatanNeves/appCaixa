@@ -174,17 +174,19 @@
         app:layout_constraintTop_toBottomOf="@id/rb_remember_user"
         app:text="@string/enter" />
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="41dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
         android:drawableRight="@drawable/ic_arrow_forward"
         android:text="@string/ph_cadastro"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="12dp"
+        android:background="null"
         android:textStyle="bold"
+        android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_btn_enter" />
