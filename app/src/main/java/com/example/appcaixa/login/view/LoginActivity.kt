@@ -1,20 +1,32 @@
 package com.example.appcaixa.login.view
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.text.Editable
 import android.text.TextWatcher
-import android.widget.Button
+import android.widget.LinearLayout
 import com.example.appcaixa.R
+import com.example.appcaixa.register.view.RegisterActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
 class LoginActivity : AppCompatActivity() {
+
+    //private lateinit var btnnewuser: LinearLayout
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+       /* btnnewuser = findViewById(R.id.btn_new_user)
+
+        btnnewuser.setOnClickListener{
+            val i = Intent(this, RegisterActivity::class.java)
+            startActivity(i)
+        }*/
 
         val editTextEmail = findViewById<TextInputEditText>(R.id.et_login_email)
         val editTextPassword = findViewById<TextInputEditText>(R.id.login_edit_password)

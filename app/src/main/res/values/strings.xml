@@ -11,7 +11,7 @@
     <string name="cadastro">Cadastrar ou alterar usuário</string>
     <string name="msg_header"><b>Boa noite!</b>\nAproveite\no seu novo\nAppCaixa.</string>
     <string name="fs_baixo_logo">Internet <b>BANKING</b></string>
-    <string name="ph_cadastro"><u>Cadastrar ou alterar usuário</u></string>
+    <string name="ph_cadastro">Cadastrar ou alterar usuário</string>
     <string name="next">Proximo</string>
     <string name="already_has_account">Já tem uma conta? Faça login.</string>
     <string name="name"><font color="#000000">Nome</font></string>
