@@ -7,7 +7,7 @@
     <Button
         style="@style/Theme.AppCaixa.Button"
         android:drawableRight="@drawable/ic_baseline_arrow_forward"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="16dp"
         android:textStyle="bold" />
