@@ -1,5 +1,7 @@
-# Redesign Caixa 😍
+# Redesign Caixa 😍  Em Construção!!!!
 [![NPM](https://img.shields.io/github/license/JhonatanNeves/appCaixa)](https://github.com/JhonatanNeves/appCaixa/blob/master/LICENCE)
+
+
 
 ## Sobre o projeto
 
@@ -10,4 +12,5 @@ A aplicação consiste em ter um acesso seguro e prático para fazer a gestão d
 # Layout mobile
 <div aling="left">
 <img src="https://github.com/JhonatanNeves/appCaixa/blob/master/app/src/main/res/drawable/readme_img_login.png" width="300px">
+<img src="https://github.com/JhonatanNeves/appCaixa/blob/master/app/src/main/res/drawable/register_login.png" width="300px">
 </div>
