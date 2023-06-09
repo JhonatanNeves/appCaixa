@@ -1,4 +1,4 @@
-# Redesign Caixa 😍  Em Construção!!!!
+# Redesign Caixa 😍  Ongoing!!!!
 
 ## Sobre o projeto
 Redesign Caixa é uma aplicação mobile que foi construída para prática e estudo. 
